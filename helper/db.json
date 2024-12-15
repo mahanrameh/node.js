@@ -1,0 +1,57 @@
+{
+    "users": [
+        {
+            "id":1,
+            "name":"mahan",
+            "username":"mahan07",
+            "email":"mahanrame@gmail.com",
+            "charge":0,
+            "role":"ADMIN"
+        },
+        {
+            "id":2,
+            "name":"mahdi",
+            "username":"mahdi/mh",
+            "email":"mahdimh@gmail.com",
+            "charge":0,
+            "role":"USER"
+        },
+        {
+            "id":3,
+            "name":"matin",
+            "username":"matin.vilan",
+            "email":"matinvilan@gmail.com",
+            "charge":0,
+            "role":"USER"
+        }
+    ],
+
+    "books": [
+        {
+            "id":1,
+            "title":"golestan",
+            "author":"saadi",
+            "price":30000,
+            "free":0
+        },
+        {
+            "id":2,
+            "title":"boostan",
+            "author":"saadi",
+            "price":60000,
+            "free":1
+        },
+        {
+            "id":1,
+            "title":"bi shuri",
+            "author":"random",
+            "price":100000,
+            "free":0
+        }
+    ],
+    "rents": [
+        {
+            
+        }
+    ]
+}
