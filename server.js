@@ -16,16 +16,24 @@ app.use(express.static(path.join(__dirname,'public')))
 
 
 app.get('/', async (req, res) => {
-    const teacher = await teachersModel.findOne({
-        _id: "675e993f03db56ce3267a385"
+    // const teacher = await teachersModel.findOne({
+    //     _id: "675e993f03db56ce3267a385"
+    // })
+
+    // courseModel.create({
+    //     title:'python',
+    //     teachers:teacher
+    // })
+    // res.json({
+    //     message:'created'
+    // })
+
+    await courseModel.findOneAndUpdate({_id:'675eac276f6b244b27de4046'},{
+        $set: {Comment: []}
     })
 
-    courseModel.create({
-        title:'python',
-        teachers:teacher
-    })
     res.json({
-        message:'created'
+        message:'comment added successfully'
     })
 })
 

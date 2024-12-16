@@ -14,7 +14,7 @@ const courseSchema = new mongoose.Schema({
     Comment: [
         {
             type: mongoose.Types.ObjectId,
-            ref: Comment
+            ref: 'Comment'
         }
     ]
 })
